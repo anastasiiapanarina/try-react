@@ -1,4 +1,6 @@
-#Server
+**Stop: r-06-01**
+
+## Server
 
 Set up
 ```
@@ -10,9 +12,9 @@ Run
 ```
 live-server public
 ```
-```public``` - target directory with index.html
+`public` - target directory with index.html
 
-#Web
+## Web
 
 Set up
 ```
@@ -24,5 +26,3 @@ Run
 ```
  babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 ```
-
-Stop: r-06-01
